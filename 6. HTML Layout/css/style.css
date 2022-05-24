@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    padding: 0 4rem;
+}
+
+header{
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1111111111111111111111;
+}
+
+.header-all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-all .left{
+    width: 10%;
+}
+
+.header-all .right{
+    width: 80%;
+    text-align: right;
+}
+
+.header-all .left img{
+    width: 100%;
+}
+
+.header-all .right a{
+    color: #fff;
+    font-size: 1rem;
+    margin-left: 25px;
+}
+
+.btn-buy{
+    border: 2px solid gainsboro;
+    padding: 13px 50px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 30px;
+    text-transform: uppercase;
+}
+
+#First{
+    background-image: url(http://imroz.rainbowit.net/assets/images/bg/bg-image-26.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 12rem 0;
+}
+
+#First h1{
+    font-size: 100px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(120deg,#1c99fe 20.69%,#7644ff 50.19%,#fd4766 79.69%);
+}
+
+#First p{
+    color: #c6c9d8;
+    font-size: 24px;
+    margin-bottom: 4rem;
+}
+
+#First a{
+    border: 2px solid #fd4766;
+    background-color: #fd4766;
+    padding: 25px 55px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transition: .4s;
+}
+
+#First a:hover{
+    background-color: transparent;
+    color: #fd4766;
+}
+
+
+#Second{
+    padding: 5rem 0;
+}
+
+.second-all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#Second .box{
+    background-color: #f6f6f6;
+    border-radius: 8px;
+    width: 32%;
+    margin-bottom: 20px;
+    padding: 20px;
+    transition: .5s;
+}
+
+#Second .box:hover{
+    background-color: #fd4766;
+}
+
+#Second .box:hover h4{
+    color: #fff !important;
+}
+
+#Second .box:hover p{
+    color: #fff !important;
+}
+#Second .box:hover svg{
+    color: #fff !important;
+}
+
+#Second svg{
+    color: #fd4766;
+    transition: .5s;
+}
+
+#Second h4{
+    margin: 10px 0;
+    color: #1f1f25;
+    font-size: 20px;
+    transition: .5s;
+}
+
+#Second p{
+    color: #757575;
+    font-size: 18px;
+    transition: .5s;
+}
+
+
+#About{
+    padding: 5rem 0;
+    background-color: #f6f6f6;
+}
+
+.about-all{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-all .box{
+    width: 48%;
+}
+
+.about-all .box img{
+    width: 100%;
+    transition: .5s;
+    border-radius: 7px;
+    filter: grayscale(1);
+}
+
+.about-all .box img:hover{
+    filter: grayscale(0) brightness(0.5);
+}
+
+.about-all h6{
+    font-size: 16px;
+}
+
+.about-all h2{
+    font-size: 50px;
+    color: #1f1f25;
+    margin: 10px 0;
+}
+
+.about-all .p1{
+    font-size: 18px;
+    color: #757575;
+}
+
+.text-all{
+    margin: 40px 0 12rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.text-box{
+    width: 48%;
+    margin-bottom: 30px;
+}
+
+#About h6{
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(120deg,#1c99fe 20.69%,#7644ff 50.19%,#fd4766 79.69%);
+}
+
+.text-box h5{
+    font-size: 18px;
+    color: #1f1f25;
+    
+}
+.text-box p{
+    font-size: 15px;
+    margin-top: 6px;
+    color: #757575;
+}
+
+#About a{
+    font-size: 12px;
+    font-weight: bold;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(120deg,#1c99fe 20.69%,#7644ff 50.19%,#fd4766 79.69%);
+}
+
+#Works{
+    padding: 5rem 0;
+}
+
+.work-text h5{
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(120deg,#1c99fe 20.69%,#7644ff 50.19%,#fd4766 79.69%);
+}
+
+.work-text h2{
+    font-size: 45px;
+    color: #1f1f25;
+    margin: 10px 0;
+}
+
+.work-text p{
+    font-size: 16px;
+    color: #757575;
+}
+
+.works-all{
+    display: flex;
+    margin-top: 40px;
+}
+
+.works-all .box{
+    width: 32%;
+    margin-right: 25px;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 7px;
+}
+
+.works-all .box:hover img{
+    transform: scale(1);
+    filter: brightness(0.5);
+}
+
+.works-all .box img{
+    width: 100%;
+    vertical-align: bottom;
+    border-radius: 7px;
+    transition: .5s;
+    transform: scale(1.2);
+}
+
+
+#Our{
+    padding: 5rem 0;
+    background-color: #f6f6f6;
+}
+
+.our-text{
+    text-align: center;
+}
+
+
+.our-text h5{
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(120deg,#1c99fe 20.69%,#7644ff 50.19%,#fd4766 79.69%);
+}
+
+.our-text h2{
+    font-size: 45px;
+    color: #1f1f25;
+    margin: 10px 0;
+}
+
+.our-text p{
+    font-size: 16px;
+    color: #757575;
+}
+
+.our-all{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+.our-all .box{
+    width: 23%;
+    background-color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    border-radius: 6px;
+}
+
+.our-all .box svg{
+    color: #fd4766;
+}
+.our-all .box h3{
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.our-all .box p{
+    font-size: 16px;
+    color: #757575;
+}
+
+#News{
+    padding: 5rem 0;
+    background-color: #f6f6f6;
+}
+
+.news-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.news-all .box{
+    width: 48%;
+}
+
+.user-all{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.news-all .right{
+    width: 40%;
+}
+
+.user-box{
+    width: 30%;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+.user-box img{
+    width: 100%;
+    border-radius: 7px;
+    vertical-align: bottom;
+}
